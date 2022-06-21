@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B1BCE6"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/UserProfileParentLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/DefaultUserAvatar"
+                android:layout_width="131dp"
+                android:layout_height="123dp"
+                android:contentDescription="@string/MonopolyImage"
+                app:srcCompat="@drawable/monopolycloud"
+                tools:ignore="ImageContrastCheck,ImageContrastCheck,ImageContrastCheck" />
+
+            <TextView
+                android:id="@+id/UserOneDescriptionText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/DefaultUserAvatarText"
+                android:textSize="50sp" />
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <ImageView
+                android:id="@+id/UserAvatar2"
+                android:layout_width="131dp"
+                android:layout_height="123dp"
+                android:layout_marginTop="28dp"
+                android:contentDescription="@string/secondUserAvatarText"
+                app:srcCompat="@drawable/monopolycloud" />
+
+            <TextView
+                android:id="@+id/UserTwoDescriptionText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/secondUserAvatarText"
+                android:textSize="50sp" />
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <ImageView
+                android:id="@+id/UserAvatar3"
+                android:layout_width="131dp"
+                android:layout_height="123dp"
+                android:contentDescription="@string/thirdUserAvatarText"
+                app:srcCompat="@drawable/monopolycloud" />
+
+            <TextView
+                android:id="@+id/UserThreeDescriptionText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/thirdUserAvatarText"
+                android:textSize="50sp" />
+            <View
+                android:id="@+id/divider3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+            <ImageView
+                android:id="@+id/UserAvatar4"
+                android:layout_width="131dp"
+                android:layout_height="123dp"
+                android:contentDescription="@string/fourthUserAvatarText"
+                app:srcCompat="@drawable/monopolycloud" />
+            <TextView
+                android:id="@+id/UserFourDescriptionText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fourthUserAvatarText"
+                android:textSize="50sp" />
+            <View
+                android:id="@+id/divider4"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+            <ImageView
+                android:id="@+id/UserAvatar5"
+                android:layout_width="131dp"
+                android:layout_height="123dp"
+                android:contentDescription="@string/fifthUserAvatarText"
+                app:srcCompat="@drawable/monopolycloud" />
+            <TextView
+                android:id="@+id/UserFiveDescriptionText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fifthUserAvatarText"
+                android:textSize="50sp" />
+            <View
+                android:id="@+id/divider5"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+            <ImageView
+                android:id="@+id/UserAvatar6"
+                android:layout_width="131dp"
+                android:layout_height="123dp"
+                android:contentDescription="@string/sixthUserAvatarText"
+                app:srcCompat="@drawable/monopolycloud" />
+            <TextView
+                android:id="@+id/UserSixDescriptionText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sixthUserAvatarText"
+                android:textSize="50sp" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

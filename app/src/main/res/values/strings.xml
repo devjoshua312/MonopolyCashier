@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Monopoly Cashier</string>
+    <string name="MonopolyImage">MonopolyImage</string>
+    <string name="Default">DefaultUserAvatar</string>
+    <string name="DefaultUserAvatarText">Player 1</string>
+    <string name="secondUserAvatarText">Player 2</string>
+    <string name="thirdUserAvatarText">Player 3</string>
+    <string name="fourthUserAvatarText">Player 4</string>
+    <string name="fifthUserAvatarText">Player 5</string>
+    <string name="sixthUserAvatarText">Player 6</string>
+    <string name="PlayerIdText">Current Selected Player Name</string>
+    <string name="AvatarDescription">Avatar of Current Player</string>
+    <string name="MoneyValue">Current Player Money: </string>
+    <string name="EditTextFieldText">Enter Amount: </string>
+    <string name="AddButtonText">Add Money</string>
+    <string name="SubtractButtonText">Subtract Money</string>
+    <string name="CurrentMoneyString">Current Money: </string>
+    <string name="GoToMainMenu">Go to Home Screen</string>
+    <string name="DefaultMoney">$1500</string>
+</resources>
